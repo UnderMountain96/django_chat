@@ -1,0 +1,93 @@
+body {
+    font-family: Roboto, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #008fcd;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+label {
+    margin-bottom: 10px;
+    display: block;
+}
+
+input {
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.width-30 {
+    width: 30%;
+}
+
+.width-80 {
+    width: 80%;
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+    background: #ffffff;
+    margin: 2% auto;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    padding: 45px;
+}
+
+.container h2 {
+    margin: 0 0 15px;
+}
+
+.container .btn {
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.container button:hover{
+    background: #a00200;
+}
+
+.container a {
+    color: #2f4d9a;
+    text-decoration: none;
+}
+
+.container a:hover {
+    color: #a00200;
+}
+
+textarea {
+    outline: none;
+    border: 1px solid #999;
+    resize: none;
+    overflow: auto;
+    width: 100%;
+    background: #f2f2f2;
+    color: black;
+}
+
+p {
+    font-size: 18px;
+}

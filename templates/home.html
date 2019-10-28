@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    <div class="container width-30 text-center">
+        {% if user.is_authenticated %}
+            <p>Hi <strong>{{ user.username }}</strong>! <a href="{% url 'logout' %}">logout</a></p>
+            <p>go to <a href="/chat/room/">chat</a></p>
+
+        {% else %}
+            <p>You are not logged in</p>
+            <a href="{% url 'login' %}">login</a>
+        {% endif %}
+    </div>
+{% endblock %}
